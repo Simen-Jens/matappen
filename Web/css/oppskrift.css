@@ -1,0 +1,40 @@
+#foodTitle {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size:90px;
+    color:#2f343a;
+    width:100%;
+    text-align:center;
+    top:770px;
+    position:absolute;
+}
+
+#foodDesc {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size:40px;
+    color:#2f343a;
+    width:100%;
+    text-align:center;
+    top:980px;
+    position:absolute;
+}
+
+#ingredienserKnapp {
+    left:2.5%;
+    top:1300px;
+}
+
+#fremgangsKnapp {
+    left:52.5%;
+    top:1300px;
+}
+
+.list {
+    position:absolute;
+    width:90%;
+    height:90%;
+    top:10%;
+    left:5%;
+    text-align:left;
+    opacity:0;
+    line-height: normal;
+}

@@ -1,0 +1,36 @@
+#currentDay {
+    left: calc(25% / 2);
+    position:absolute;
+    top:75px;
+
+    border-radius: 50%;
+	width: 75%;
+	height: calc((75% / 16) * 9);
+    border-style:solid; border-width:1px; border-color:#2f343a;
+}
+
+#currentDayEX {
+    left:15%;
+    position:absolute;
+    top:105px;
+
+    border-radius: 50%;
+	width: 70%;
+	height: calc((70% / 16) * 9);
+
+    background-image:url('');
+    background-size:cover;
+    background-position: 30% 10%;
+    transition: 0.5s ease;
+}
+
+#dayName {
+    position:absolute;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size:200px;
+    width:100%;
+    top:30px;
+    text-align:center;
+    color:#FAF6F1;
+    text-shadow: 0px 2px 3px #2f343a;
+}
