@@ -28,7 +28,7 @@ void setup()
 void loop()
 {
   delay(1000);
-  Serial.println(String("1510.owscout.com/?") + String("korn=") + String(digitalRead(0)) +       String("&gulrot=") + String(digitalRead(2))+ String("&lok=") + String(digitalRead(3)) + String("&brokkoli=") + String(digitalRead(4)) + String("&salat=") + String(digitalRead(5)) +
+  Serial.println(String("HOSTNAME/?") + String("korn=") + String(digitalRead(0)) +       String("&gulrot=") + String(digitalRead(2))+ String("&lok=") + String(digitalRead(3)) + String("&brokkoli=") + String(digitalRead(4)) + String("&salat=") + String(digitalRead(5)) +
 String("&avokado=") + String(digitalRead(6)) + String("&tomat=") + String(digitalRead(7)) + String("&sopp=") + String(digitalRead(8)) +String("&agurk=") + String(digitalRead(9)) + String("&paprika=") + String(digitalRead(10)) + String("&brod=") + String(digitalRead(11)) +
 String("&potet=") + String(digitalRead(12)) + String("&melk=") + String(digitalRead(13)) + String("&kjott=") + String(conversion(0)) +String("&fugl=") + String(conversion(1)) + String("&fisk=") + String(conversion(2)) + String("&pasta=") + String(conversion(3)) +
 String("&sitron=") + String(conversion(4)) + String("&ris=") + String(conversion(5)));
