@@ -141,32 +141,32 @@ $(document).ready(function () {
     samling = new Matsamling('filInput');
 });
 function Dag_Mandag() {
-    //this.hovedrett = samling.getValid();
-    this.hovedrett = samling.getNeste();
+    this.hovedrett = samling.getValid();
+    //this.hovedrett = samling.getNeste();
 }
 function Dag_Tirsdag() {
-    //this.hovedrett = samling.getValid();
-    this.hovedrett = samling.getNeste();
+    this.hovedrett = samling.getValid();
+    //this.hovedrett = samling.getNeste();
 }
 function Dag_Onsdag() {
-    //this.hovedrett = samling.getValid();
-    this.hovedrett = samling.getNeste();
+    this.hovedrett = samling.getValid();
+    //this.hovedrett = samling.getNeste();
 }
 function Dag_Torsdag() {
-    //this.hovedrett = samling.getValid();
-    this.hovedrett = samling.getNeste();
+    this.hovedrett = samling.getValid();
+    //this.hovedrett = samling.getNeste();
 }
 function Dag_Fredag() {
-    //this.hovedrett = samling.getValid();
-    this.hovedrett = samling.getNeste();
+    this.hovedrett = samling.getValid();
+    //this.hovedrett = samling.getNeste();
 }
 function Dag_Lordag() {
-    //this.hovedrett = samling.getValid();
-    this.hovedrett = samling.getNeste();
+    this.hovedrett = samling.getValid();
+    //this.hovedrett = samling.getNeste();
 }
 function Dag_Sondag() {
-    //this.hovedrett = samling.getValid();
-    this.hovedrett = samling.getNeste();
+    this.hovedrett = samling.getValid();
+    //this.hovedrett = samling.getNeste();
 }
 
 var mandag;
@@ -191,12 +191,12 @@ function nesteDag() {
         dayName.innerHTML = 'FRE';
         callDag(fredag);
     } else if (dayName.innerHTML == 'FRE') {
-        dayName.innerHTML = 'LØR';
+        dayName.innerHTML = 'LÃ˜R';
         callDag(lordag);
-    } else if (dayName.innerHTML == 'LØR') {
-        dayName.innerHTML = 'SØN';
+    } else if (dayName.innerHTML == 'LÃ˜R') {
+        dayName.innerHTML = 'SÃ˜N';
         callDag(sondag);
-    } else if (dayName.innerHTML == 'SØN') {
+    } else if (dayName.innerHTML == 'SÃ˜N') {
         dayName.innerHTML = 'MAN';
         callDag(mandag);
     } else {
@@ -206,7 +206,7 @@ function nesteDag() {
 function forrigeDag() {
     var dayName = document.getElementById('dayName');
     if (dayName.innerHTML == 'MAN') {
-        dayName.innerHTML = 'SØN';
+        dayName.innerHTML = 'SÃ˜N';
         callDag(sondag);
     } else if (dayName.innerHTML == 'TIR') {
         dayName.innerHTML = 'MAN';
@@ -220,11 +220,11 @@ function forrigeDag() {
     } else if (dayName.innerHTML == 'FRE') {
         dayName.innerHTML = 'TOR';
         callDag(torsdag);
-    } else if (dayName.innerHTML == 'LØR') {
+    } else if (dayName.innerHTML == 'LÃ˜R') {
         dayName.innerHTML = 'FRE';
         callDag(fredag);
-    } else if (dayName.innerHTML == 'SØN') {
-        dayName.innerHTML = 'LØR';
+    } else if (dayName.innerHTML == 'SÃ˜N') {
+        dayName.innerHTML = 'LÃ˜R';
         callDag(lordag);
     } else {
         alert('unknown day');
